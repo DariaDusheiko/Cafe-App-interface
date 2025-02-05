@@ -21,7 +21,7 @@ body {
 .nav {
   position: fixed;
   background-color: none;
-  font-size: 70%;
+  font-size: 60%;
   top: 0;
   left: 0;
   right: 0;
@@ -194,7 +194,8 @@ body {
 
 /* 3- portfolio section */
 #portfolio {
-  background-color: #E9E9E9;
+  background-color: black;
+  background-image: url(https://i.postimg.cc/DwD01RcW/back-dark.jpg);
   align-items: center;
   justify-content: center;
   padding: 30px 20px;
@@ -208,6 +209,13 @@ body {
 #portfolio h3 {
   text-align: center;
   margin-bottom: 0;
+  color: #9E0000;
+  margin-bottom: 3%;
+}
+
+.but_bolder{
+    border-radius: 20px;
+    background-color: #E9E9E9;
 }
 .projects a {
   grid-column: 1/9;
@@ -216,15 +224,23 @@ body {
   align-items: center;
   justify-content: center;
   text-decoration: none;
+  border-radius: 30px;
+  background-color: #1C1C1B;
+  color: white;
 }
 .projects a * {
   margin: 0 20px;
+  padding: 20px;
   max-width: 40%;
-  align-self: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 55%;
 }
 .projects h4 {
   color: #9994f7;
 }
+
 
 .projects grid{
     align-items: center;
@@ -281,11 +297,12 @@ body {
 /* 6- footer section */
 footer {
   padding: 30px 20px;
-  background-color: #14153d;
-  background-image: url(https://i.ibb.co/Fsc8R8H/satellite.png);
+  margin-top: 5%;
+  background-color: #610000;
   background-size: 15%;
   background-repeat: no-repeat;
   background-position: bottom center;
+  color: white;
 }
 footer .copyright {
   grid-column: 1/3;
